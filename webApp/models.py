@@ -19,7 +19,7 @@ class News:
         self.members = form['members']
 
     def gen(self):
-        dirpath = os.path.dirname(os.path.abspath(__file__)) + '\\Data'
+        dirpath = os.path.dirname(os.path.abspath(__file__)) + '/Data'
         # Open json data file
         with open(os.path.join(dirpath, self.type, 'data.json'), encoding='utf-8') as f:
             data = json.load(f)
