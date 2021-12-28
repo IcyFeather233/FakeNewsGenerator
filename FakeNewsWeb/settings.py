@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7tao(55j-epem(ne@yt9+#!sq%484931nh$8v5s5_itj_61v7g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fakenews.scumaker.org']
 
 
 # Application definition
